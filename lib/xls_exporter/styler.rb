@@ -60,6 +60,6 @@ module XlsExporter::Styler
   end
 
   def words(string)
-    string.split(' ')
+    string.to_s.split(' ')
   end
 end
